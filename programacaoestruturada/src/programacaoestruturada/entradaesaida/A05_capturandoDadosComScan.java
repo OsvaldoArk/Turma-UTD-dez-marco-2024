@@ -12,7 +12,18 @@ public class A05_capturandoDadosComScan {
 		
 		String nome = leitor.next();
 		
-		System.out.println("Seja bem vindo(a) ao curso de Lógica de Programação Java, "+nome);
+		System.out.println("Digite sua idade");
+		
+		int idade = leitor.nextInt();
+		
+		System.out.println("Seja bem vindo(a) ao curso de Lógica de Programação Java, ");
+		
+		System.out.println("=========Aluno(a)=============");
+		System.out.println("nome: "+nome);
+		System.out.println("idade: "+idade);
+		System.out.println("==============================");
+		
+		
 		
 		leitor.close();
 		
