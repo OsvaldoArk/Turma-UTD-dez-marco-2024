@@ -5,6 +5,10 @@ public class A06_operadores {
 	public static void main(String[] args) {
 		// operadores aritméticos
 		
+		double media = (10 + 8 + 9) / 3;
+		
+		System.out.println(media);
+		
 		// operadores unários 
 		
 		// operadores relacionais
