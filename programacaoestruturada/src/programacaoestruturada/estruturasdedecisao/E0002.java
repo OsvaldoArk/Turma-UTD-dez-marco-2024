@@ -22,6 +22,5 @@ public class E0002 {
 					
 			default: System.out.println("opção inválida");
 		}
-
 	}
 }
