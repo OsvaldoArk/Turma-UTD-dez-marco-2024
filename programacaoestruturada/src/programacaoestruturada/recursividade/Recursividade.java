@@ -4,7 +4,7 @@ public class Recursividade {
 
 	public static void main(String[] args) {
 		
-		System.out.println(Expoente(7,2));
+		System.out.println(ProgressaoAritmetica(3,2,5));
 
 	}
 	//(4 + ( 3 + ( 2 + (1))))
@@ -35,5 +35,12 @@ public class Recursividade {
 		if(expoente == 0) return 1;
 		
 		return base * Expoente(base,expoente - 1);
+	}
+	
+	public static int ProgressaoAritmetica(int numero,int a1,int razao) {
+		
+		if(numero == 1) return a1;
+		
+		return a1 + ((ProgressaoAritmetica(numero-1, a1, razao)-1) + razao);
 	}
 }
